@@ -6,7 +6,7 @@ from checklist import classify_doc_type, REQUIRED_DOCS
 from comment_utils import add_comment_at_paragraph
 from utils import ensure_dirs
 
-# Simple rule patterns (expand later)
+# Simple rule patterns 
 BAD_JURISDICTION = ["uae federal court", "dubai courts", "onshore uae"]
 WEAK_LANGUAGE = ["may at its discretion", "best efforts", "commercially reasonable efforts"]
 MISSING_SIGN_KEYS = ["signature", "signed by", "authorised signatory", "authorized signatory", "date", "name"]
